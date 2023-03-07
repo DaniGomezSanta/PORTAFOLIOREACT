@@ -1,0 +1,74 @@
+#contacto{
+    padding: 100px 5px;
+}
+
+#contacto .tituloSeccion{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #111135;
+    text-decoration: underline;
+    text-decoration-color: #d3d3d3;
+    text-decoration-thickness: 5px;
+}
+
+#contacto .contenedorForm{
+    max-width: 1100px;
+    margin: auto;
+}
+
+#contacto .contenedorForm .fila{
+    margin-bottom: 15px;
+}
+
+#contacto .contenedorForm .mitad{
+    display: flex;
+    justify-content: space-between;
+}
+
+#contacto .contenedorForm input,
+#contacto .contenedorForm textarea{
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    border: 1px solid #919191;
+}
+
+#contacto .contenedorForm .mitad  input{
+    width: 48%;
+}
+
+#contacto .contenedorForm .inputFull{
+    width: 100%;
+}
+
+#contacto .btn-enviar{
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    transition: .5s;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#contacto .btnEnviar:hover{
+    background-color: #ff5080;
+    color: #fff;
+}
+
+footer{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin: 5px;
+    font-size: 26px;
+}

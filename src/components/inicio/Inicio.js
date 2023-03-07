@@ -5,6 +5,11 @@ import {faLinkedin, faGithub, faInstagram, faFacebook} from '@fortawesome/free-b
 import { Link } from "react-router-dom";
 import style from '../inicio/Inicio.module.css'
 import AboutMe from "../AboutMe/AboutMe";
+import Services from "../Services/Services";
+import Habilities from "../Habilities/Habilities";
+import Portafolio from "../Portafolio/Portafolio";
+import Contact from "../Contact/Contact";
+import Footer from "../Footer/Footer";
 
 
 export default function Inicio(){
@@ -55,6 +60,11 @@ export default function Inicio(){
            </div>
           </section>
           <AboutMe id='#sobremi'/>
+          <Services/>
+          <Habilities/>
+          <Portafolio/>
+          <Contact/>
+          <Footer/>
         </div>
     )
 }; 
