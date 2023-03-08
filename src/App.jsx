@@ -1,6 +1,7 @@
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
+import React from 'react';
 import Inicio from './components/inicio/Inicio';
-import AboutMe from './components/AboutMe/AboutMe.js'
+import AboutMe from './components/AboutMe/AboutMe.jsx'
 import Services from './components/Services/Services';
 import Habilities from './components/Habilities/Habilities';
 import Portafolio from './components/Portafolio/Portafolio';

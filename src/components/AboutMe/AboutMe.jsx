@@ -1,7 +1,8 @@
 import React from "react";
 import foto from '../../images/Foto.jpeg';
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import style from '../AboutMe/About.module.css'
+import CV from '../../CV/HOJA DE VIDA 2023.pdf'
 
 export default function AboutMe(){
     return(
@@ -34,7 +35,7 @@ export default function AboutMe(){
                       espero aprender y entregar lo mejor de mi.
                  </p>
                 </p>
-                <Link to="#">Descargar CV</Link>
+                <a href={CV} download='CV'>Descargar CV</a>
         </div>
     </section>
     )

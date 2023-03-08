@@ -66,3 +66,22 @@
     font-size: 14px;
     line-height: 22px;
 }
+
+
+/* responsive */
+
+@media screen and (max-width:800px){
+
+    #servicios {
+        padding: 50px 15px;
+    }
+    #servicios .fila{
+        display: block;
+    }
+    #servicios .fila .servicio{
+        margin: 10px auto;
+    }
+    #contenedor-skills{
+        padding: 50px 20px;
+    }
+}
