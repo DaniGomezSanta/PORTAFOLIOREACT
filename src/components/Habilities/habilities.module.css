@@ -39,67 +39,63 @@
     background-color: #fff;
     width: 80%;
     height: 6px;
-    animation: progreso 2s forwards;
+    animation: progreso1 2s forwards;
 }
 
 .contenedorSkills .skill .barra .barraProgreso2{
     background-color: #fff;
     width: 70%;
     height: 6px;
-    animation: progreso 2s forwards;
+    animation: progreso2 2s forwards;
 }
 
 .contenedorSkills .skill .barra .barraProgreso3{
     background-color: #fff;
     width: 70%;
     height: 6px;
-    animation: progreso 2s forwards;
+    animation: progreso3 2s forwards;
 }
 
 .contenedorSkills .skill .barra .barraProgreso4{
     background-color: #fff;
     width: 60%;
     height: 6px;
-    animation: progreso 2s forwards;
+    animation: progreso4 2s forwards;
 }
 
 .contenedorSkills .skill .barra .barraProgreso5{
     background-color: #fff;
     width: 50%;
     height: 6px;
-    animation: progreso 2s forwards;
+    animation: progreso5 2s forwards;
 }
 
 .contenedorSkills .skill .barra .barraProgreso6{
     background-color: #fff;
     width: 50%;
     height: 6px;
-    animation: progreso 2s forwards;
+    animation: progreso6 2s forwards;
 }
 
 .contenedorSkills .skill .barra .barraProgreso7{
     background-color: #fff;
     width: 50%;
     height: 6px;
-    animation: progreso 2s forwards;
+    animation: progreso7 2s forwards;
 }
 
 .contenedorSkills .skill .barra .barraProgreso8{
     background-color: #fff;
     width: 80%;
     height: 6px;
-    animation: progreso 2s forwards;
+    animation: progreso8 2s forwards;
 }
 
 /* animaciondes de las barras */
 
 @keyframes progreso1{
-    0%{
-        width: 0;
-    }
-    100%{
-        width: 80%;
-    }
+    0%{width: 0%;}
+    100%{width: 80%;}
 }
 
 @keyframes progreso2{
@@ -164,3 +160,17 @@
         width: 80%;
     }
 }
+
+
+/* Responsive */
+
+@media (max-width: 600px) {
+    .contenedorSkills {
+      padding: 50px 0; /* reduce el relleno superior e inferior */
+    }
+    
+    .contenedorSkills .skill {
+      max-width: 80%; /* ajusta el ancho máximo */
+      font-size: 16px; /* reduce el tamaño de fuente */
+    }
+  }

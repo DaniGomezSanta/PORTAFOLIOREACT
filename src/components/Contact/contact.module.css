@@ -23,8 +23,9 @@
 }
 
 #contacto .contenedorForm .mitad{
-    display: flex;
-    justify-content: space-between;
+    display: inline-block;
+    width: 50%;
+    justify-content: center;
 }
 
 #contacto .contenedorForm input,
@@ -36,7 +37,7 @@
 }
 
 #contacto .contenedorForm .mitad  input{
-    width: 48%;
+    width: 100%;
 }
 
 #contacto .contenedorForm .inputFull{
@@ -83,6 +84,7 @@ footer a{
     #contacto .contenedorForm .mitad{
         margin-bottom: 15px;
         display: block;
+        width: 100%;
     }
     #contacto .contenedor-form .mitad input {
         width: 100%;

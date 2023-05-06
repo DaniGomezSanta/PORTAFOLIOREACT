@@ -25,12 +25,12 @@ export default function Inicio(){
               <div className={style.contenidoheader}>
               <h1>PORTFOLIO</h1>
               <nav id={style.nav} className="">
-                <ul id={style.links}>
-                <li>INICIO</li>
-                 <li>SOBRE MI</li>
-                  <li>PORTFOLIO</li>
-                  <li>CONTACTO</li>
-                </ul>
+                {/* <ul id={style.links}>
+                <li><Link to='/'>INICIO</Link></li>
+                 <li><Link to='/aboutme'>SOBRE MI</Link></li>
+                  <li><Link to='/portafolio'>PORTFOLIO</Link></li>
+                  <li><Link to='/contact'>CONTACTO</Link></li>
+                </ul> */}
               </nav>
 
               <div id={style.iconNav}>
@@ -61,9 +61,9 @@ export default function Inicio(){
             </div>
            </div>
           </section>
-          <AboutMe id='#sobremi'/>
+          <AboutMe/>
           {/* <Services/> */}
-          <Habilities/>
+          <Habilities />
           <Portafolio/>
           <Contact/>
           <Footer/>

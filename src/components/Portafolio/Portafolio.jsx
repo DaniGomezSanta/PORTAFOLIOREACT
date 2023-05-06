@@ -2,7 +2,8 @@ import React from "react"
 import style from '../Portafolio/portafolio.module.css'
 import pokemon from '../../images/pokemonapi.jpeg';
 import ecommerce from '../../images/e-commerce shoes.jpeg'
-
+import gifApp from '../../images/gifsApp.jpeg';
+import heroeApp from '../../images/HeroesApp.jpeg'; 
 
 export default function Portafolio(){
     return(
@@ -17,7 +18,7 @@ export default function Portafolio(){
                     <h4>Pokemon Api</h4>
                     <p>Es una aplicacion donde puedes filtrar tu pokemon,
                          buscar diferentes pokemons mirar su detalle y crear tu propio pokemon
-                         <a href="https://github.com/DaniGomezSanta/POKEMON-PI">ver mas</a>
+                         <a href="https://pokemon-api-kappa-fawn.vercel.app/">ver mas</a>
                         </p>
                 </div>
             </div>
@@ -34,7 +35,30 @@ export default function Portafolio(){
                     </p>
                 </div>
             </div>
+            
+            <div className={style.proyecto}>
+                <div className={style.overlay}></div>
+                <img src={gifApp} alt=""/>
+                <div className={style.info}>
+                    <h4>Api Gifs</h4>
+                    <p>Es una pagina en la cual puedes divertir buscando diferentes gifs. 
+                        <a href="https://gif-expert-daniela.netlify.app/">ver mas</a>
+                    </p>
+                </div>
+            </div>
 
+                 
+            <div className={style.proyecto}>
+                <div className={style.overlay}></div>
+                <img src={heroeApp} alt=""/>
+                <div className={style.info}>
+                    <h4>Heroes App</h4>
+                    <p>Aplicacion en la que puedes ver super heroes de Marvel y DC, te puedes logear, buscar un super heroe en especifico 
+                        y si das click sobre el super heroe encontrar mas detalles como su alter ego, su primera aparicion, y quien lo protagoniza. 
+                        <a href="https://heroesdani.netlify.app/marvel">ver mas</a>
+                    </p>
+                </div>
+            </div>
          
         </div>
     </seccion>
