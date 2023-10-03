@@ -2,7 +2,7 @@ import React from "react";
 import foto from '../../images/Foto.jpeg';
 // import { Link } from "react-router-dom";
 import style from '../AboutMe/About.module.css';
-import CvSpanish from '../../CV/HOJADEVIDA2023.pdf';
+import CvSpanish from '../../CV/CVESPAÑOL2023.pdf';
 import CvEnglish from '../../CV/CVENGLISH2023.pdf';
 
 
