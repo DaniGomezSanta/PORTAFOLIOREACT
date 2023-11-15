@@ -20,11 +20,12 @@ export default function AboutMe(){
                 <p>Hola a todos 👋
                 <p>Soy Daniela y les quisiera contar un poco más sobre mi.</p>
 
-                <p>Soy full stack web developer después de más de un año de haber estudiado y esforzarme demasiado, 
-                    anteriormente estudie comercio internacional pero decidí dar ese giro profesional 💻.</p>
+                <p>Soy full stack web developer, después de haber estudiado comercio internacional decidí dar un giro a mi vida profesional 
+                    para trabajar en desarrollo de software, donde busco aportar también mis conocimientos previos. 💻</p>
                 <p>Mis principales skills son:</p>
-                <p>🎈React 🎈Redux 🎈JavaScript 🎈HTML 🎈CSS 🎈Node.js 🎈Express 🎈PostgreSQL</p>
-                <p>Actualmente sigo mejorando en mis skills y estoy introduciéndome a🔸Flutter y 🔸Azure Devops.</p>
+                <p>🎈React 🎈React Native 🎈Redux 🎈JavaScript 🎈HTML 🎈CSS 🎈Node.js 🎈Express🎈SQL</p>
+                <p>Actualmente sigo mejorando en mis skills y estoy introduciéndome a:</p>
+                <p>🔸React Native y 🔸Azure Devops.</p>
                 <p>📚Disciplinada, responsable, proactiva, dedicada.</p>
                 <p>💡Me adaptó fácil a nuevos entornos, autodidacta y me gusta el trabajo en equipo.</p>
                     </p>

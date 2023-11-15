@@ -56,7 +56,7 @@ export default function Inicio(){
             <div className={style.presentacion}>
              <p className={style.bienvenida}>Bienvenidos</p>
              <h2>Soy <span>Daniela Gomez</span>, Desarrolladora Web Full Stack</h2>
-             <p className={style.descripcion}> | CSS | Html | React | JavaScript | Express | Git | Node js | Postrgesql | Postman | Redux | Tailwin</p>
+             <p className={style.descripcion}> | CSS | Html | React | React Native | JavaScript | Express | Git | Node js | SQL | Postman | Redux | Tailwin | Material UI</p>
              {/* <Link to="#portfolio">Ir a Portfolio</Link> */}
             </div>
            </div>

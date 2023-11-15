@@ -17,7 +17,7 @@ export default function Habilities(){
         <div className={style.skill}>
             <div className={style.info}>
                 <p><span className={style.lista}>React</span></p>
-                <span className={style.porcentaje}>70%</span>
+                <span className={style.porcentaje}>80%</span>
             </div>
             <div className={style.barra}>
                 <div id="react" className={style.barraProgreso2}></div>
@@ -25,8 +25,17 @@ export default function Habilities(){
         </div>
         <div className={style.skill}>
             <div className={style.info}>
+                <p><span className={style.lista}>React Native</span></p>
+                <span className={style.porcentaje}>60%</span>
+            </div>
+            <div className={style.barra}>
+                <div id="postman" className={style.barraProgreso9}></div>
+            </div>
+        </div>
+        <div className={style.skill}>
+            <div className={style.info}>
                 <p><span className={style.lista}>Javascript</span></p>
-                <span className={style.porcentaje}>70%</span>
+                <span className={style.porcentaje}>80%</span>
             </div>
             <div className={style.barra}>
                 <div id="js" className={style.barraProgreso3}></div>
@@ -35,7 +44,7 @@ export default function Habilities(){
         <div className={style.skill}>
             <div className={style.info}>
                 <p><span className={style.lista}>Redux</span></p>
-                <span className={style.porcentaje}>60%</span>
+                <span className={style.porcentaje}>70%</span>
             </div>
             <div className={style.barra}>
                 <div id="redux" className={style.barraProgreso4}></div>

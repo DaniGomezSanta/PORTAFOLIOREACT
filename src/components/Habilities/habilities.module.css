@@ -44,21 +44,21 @@
 
 .contenedorSkills .skill .barra .barraProgreso2{
     background-color: #fff;
-    width: 70%;
+    width: 80%;
     height: 6px;
     animation: progreso2 2s forwards;
 }
 
 .contenedorSkills .skill .barra .barraProgreso3{
     background-color: #fff;
-    width: 70%;
+    width: 80%;
     height: 6px;
     animation: progreso3 2s forwards;
 }
 
 .contenedorSkills .skill .barra .barraProgreso4{
     background-color: #fff;
-    width: 60%;
+    width: 70%;
     height: 6px;
     animation: progreso4 2s forwards;
 }
@@ -91,6 +91,13 @@
     animation: progreso8 2s forwards;
 }
 
+.contenedorSkills .skill .barra .barraProgreso9{
+    background-color: #fff;
+    width: 60%;
+    height: 6px;
+    animation: progreso9 2s forwards;
+}
+
 /* animaciondes de las barras */
 
 @keyframes progreso1{
@@ -103,7 +110,7 @@
         width: 0;
     }
     100%{
-        width: 70%;
+        width: 80%;
     }
 }
 
@@ -112,7 +119,7 @@
         width: 0;
     }
     100%{
-        width: 70%;
+        width: 80%;
     }
 }
 
@@ -121,7 +128,7 @@
         width: 0;
     }
     100%{
-        width: 60%;
+        width: 70%;
     }
 }
 
@@ -160,6 +167,16 @@
         width: 80%;
     }
 }
+
+@keyframes progreso9{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 60%;
+    }
+}
+
 
 
 /* Responsive */

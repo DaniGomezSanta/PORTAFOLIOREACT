@@ -8,7 +8,7 @@ export default function Contact(){
 
     function enviarEmail(e){
         e.preventDefault();
-        emailjs.sendForm('service_8qq2mp7', 'template_hheslyf', e.target, '2R_669TM3ugdYxHfN' )
+        emailjs.sendForm('service_8qq2mp7', 'template_hheslyf', e.target, 'tcCK8GeFBBPn2K_3UC0ev' )
         .then(response => console.log(response))
         .catch(error=> console.log(error))
         swal({
